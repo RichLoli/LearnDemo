@@ -1,0 +1,12 @@
+{
+  "name": "VueDemo",
+  "version": "1.0.0",
+  "description": "Vue教程",
+  "main": "index.js",
+  "author": "Aya",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.1"
+  }
+}
