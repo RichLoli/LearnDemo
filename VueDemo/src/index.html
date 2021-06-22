@@ -21,6 +21,10 @@
         <span v-once>{{message + 'abcdefg'}}</span>
     </div>
 
+    
+    <div id ="app4">
+        <span v-bind:id="dynid" >{{message}}</span>
+    </div>
 
 
 </body>
@@ -44,6 +48,14 @@
         el: "#app3",
         data: {
             message: "Hello Vue!"
+        }
+    });
+
+    var app4 = new Vue({
+        el: "#app4",
+        data: {
+            message: "Hello Vue!",
+            dynid: "test"
         }
     });
 </script>
